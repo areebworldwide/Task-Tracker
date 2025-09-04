@@ -162,7 +162,7 @@ def main():
                 task_id = int(sys.argv[2])
                 change_status(task_id, "done")
             except ValueError:
-                print("❌ Task ID must be a number")
+                print(" Task ID must be a number")
 
 
     elif command == "list":
@@ -181,3 +181,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
